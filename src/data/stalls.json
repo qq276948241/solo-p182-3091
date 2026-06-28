@@ -1,0 +1,259 @@
+[
+  {
+    "id": "s001",
+    "name": "李家有机菜园",
+    "category": "vegetable",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=fresh%20organic%20vegetables%20at%20farmers%20market%20wooden%20crate%20natural%20sunlight&image_size=square_hd",
+    "description": "坚持十年不打农药的家庭农场，蔬菜都是当天清晨从自家菜地采摘，带着露水送到市集。老李家祖上三代都是菜农，对每一片叶子都格外上心。",
+    "ownerName": "李大伯",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=friendly%20elderly%20chinese%20farmer%20portrait%20smiling%20wearing%20straw%20hat&image_size=square",
+    "ownerQuote": "种菜和做人一样，要实在，不能急。",
+    "businessHours": "周六 8:00-16:00 / 周日 8:00-14:00",
+    "location": "A区 01号摊位",
+    "products": [
+      { "id": "p001", "name": "有机小番茄", "price": "18", "unit": "元/斤", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=organic%20cherry%20tomatoes%20red%20fresh%20basket&image_size=square" },
+      { "id": "p002", "name": "奶油生菜", "price": "12", "unit": "元/棵", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=fresh%20butter%20lettuce%20green%20leaves&image_size=square" },
+      { "id": "p003", "name": "紫皮茄子", "price": "8", "unit": "元/斤", "note": "本周新摘", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=purple%20eggplants%20fresh%20vegetables&image_size=square" },
+      { "id": "p004", "name": "水果黄瓜", "price": "10", "unit": "元/斤", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=small%20cucumbers%20fresh%20green%20vegetable&image_size=square" }
+    ]
+  },
+  {
+    "id": "s002",
+    "name": "田园蘑菇坊",
+    "category": "vegetable",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=variety%20of%20fresh%20mushrooms%20wooden%20table%20farmers%20market&image_size=square_hd",
+    "description": "自家菇房培育的各类食用菌，从菌棒到采摘全程可追溯。菇房恒温恒湿，保证每朵菇都饱满紧实。",
+    "ownerName": "王姐",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20middle%20aged%20woman%20farmer%20smile%20apron&image_size=square",
+    "ownerQuote": "蘑菇是有灵性的，你对它好，它就长得漂亮。",
+    "businessHours": "周六 8:30-17:00 / 周日 8:30-15:00",
+    "location": "A区 03号摊位",
+    "products": [
+      { "id": "p005", "name": "鲜香菇", "price": "15", "unit": "元/斤", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=fresh%20shiitake%20mushrooms%20brown&image_size=square" },
+      { "id": "p006", "name": "白玉菇", "price": "12", "unit": "元/盒", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=white%20beech%20mushrooms%20enoki&image_size=square" },
+      { "id": "p007", "name": "平菇", "price": "9", "unit": "元/斤", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=fresh%20oyster%20mushrooms%20grey&image_size=square" }
+    ]
+  },
+  {
+    "id": "s003",
+    "name": "老张水果摊",
+    "category": "vegetable",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=fresh%20summer%20fruits%20watermelon%20peach%20grape%20market%20stall&image_size=square_hd",
+    "description": "每周从近郊果园直采的时令水果，不打蜡不催熟，自然熟成。老张挑水果四十年，拿手一拍就知道甜不甜。",
+    "ownerName": "张师傅",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20old%20man%20fruit%20vendor%20kind%20smile&image_size=square",
+    "ownerQuote": "瓜熟蒂落，甜不甜，得听它的。",
+    "businessHours": "周六 7:30-18:00 / 周日 7:30-16:00",
+    "location": "A区 05号摊位",
+    "products": [
+      { "id": "p008", "name": "8424西瓜", "price": "3.5", "unit": "元/斤", "note": "爆甜", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=sliced%20watermelon%20red%20flesh%20summer&image_size=square" },
+      { "id": "p009", "name": "阳山水蜜桃", "price": "25", "unit": "元/斤", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20white%20peaches%20pink%20juicy&image_size=square" },
+      { "id": "p010", "name": "巨峰葡萄", "price": "20", "unit": "元/斤", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=purple%20kyoho%20grapes%20fresh%20fruit&image_size=square" }
+    ]
+  },
+  {
+    "id": "s004",
+    "name": "青苗香草园",
+    "category": "vegetable",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=fresh%20herbs%20basil%20mint%20rosemary%20wooden%20board&image_size=square_hd",
+    "description": "阳台和小庭院都能种的香草苗，带盆带走。也卖现采收的鲜切香草，做西餐、泡茶都合适。",
+    "ownerName": "青苗姑娘",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=young%20chinese%20woman%20gardener%20holding%20potted%20herbs%20smile&image_size=square",
+    "ownerQuote": "闻闻薄荷，心情会好一整天。",
+    "businessHours": "周六 9:00-16:30 / 周日 9:00-14:30",
+    "location": "A区 07号摊位",
+    "products": [
+      { "id": "p011", "name": "罗勒盆栽", "price": "22", "unit": "元/盆", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=basil%20plant%20green%20pot&image_size=square" },
+      { "id": "p012", "name": "新鲜迷迭香", "price": "8", "unit": "元/束", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=fresh%20rosemary%20sprigs%20green&image_size=square" },
+      { "id": "p013", "name": "柠檬薄荷", "price": "18", "unit": "元/盆", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=mint%20leaves%20fresh%20green%20herb&image_size=square" }
+    ]
+  },
+  {
+    "id": "s005",
+    "name": "土鸡蛋之家",
+    "category": "vegetable",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=farm%20fresh%20eggs%20brown%20wicker%20basket%20straw&image_size=square_hd",
+    "description": "山林散养土鸡下的蛋，蛋黄颜色金黄橘红，蛋白紧实。煮白煮蛋就能吃出差别。",
+    "ownerName": "陈阿姨",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20auntie%20warm%20smile%20holding%20basket%20eggs&image_size=square",
+    "ownerQuote": "土鸡满山跑，蛋才香得很。",
+    "businessHours": "周六 7:00-15:00 / 周日 7:00-12:00",
+    "location": "A区 09号摊位",
+    "products": [
+      { "id": "p014", "name": "土鸡蛋（30枚）", "price": "55", "unit": "元/盒", "note": "本周限量", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=farm%20eggs%20in%20carton%20box&image_size=square" },
+      { "id": "p015", "name": "土鸡蛋（10枚）", "price": "20", "unit": "元/盒", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=ten%20eggs%20small%20carton&image_size=square" },
+      { "id": "p016", "name": "咸鸭蛋", "price": "4", "unit": "元/个", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=salted%20duck%20eggs%20chinese&image_size=square" }
+    ]
+  },
+  {
+    "id": "s006",
+    "name": "绿芽嫩芽菜",
+    "category": "vegetable",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=microgreens%20sprouts%20assortment%20colorful%20healthy&image_size=square_hd",
+    "description": "专注芽苗菜培育，豌豆苗、香椿苗、萝卜苗……无土水培干净卫生，凉拌清炒都鲜嫩。",
+    "ownerName": "小林",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=young%20chinese%20man%20farmer%20apron%20smile&image_size=square",
+    "ownerQuote": "小小的芽，满满的活力。",
+    "businessHours": "周六 8:00-16:30 / 周日 8:00-14:30",
+    "location": "A区 11号摊位",
+    "products": [
+      { "id": "p017", "name": "豌豆苗", "price": "10", "unit": "元/盒", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=pea%20shoots%20green%20fresh%20sprouts&image_size=square" },
+      { "id": "p018", "name": "香椿苗", "price": "15", "unit": "元/盒", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20toon%20sprouts%20red%20green&image_size=square" },
+      { "id": "p019", "name": "黑豆苗", "price": "9", "unit": "元/盒", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=black%20bean%20sprouts%20green%20fresh&image_size=square" }
+    ]
+  },
+  {
+    "id": "s007",
+    "name": "织时光手织",
+    "category": "handmade",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=hand%20knitted%20scarves%20blankets%20colorful%20yarn%20wool%20craft&image_size=square_hd",
+    "description": "全手工棒针钩针编织的小物，杯垫、围巾、毛线小花。用的都是进口羊毛和棉线，摸得着的温度。",
+    "ownerName": "阿月",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20young%20woman%20knitting%20crafts%20warm%20smile&image_size=square",
+    "ownerQuote": "一针一线，都是慢慢的心意。",
+    "businessHours": "周六 9:00-17:30 / 周日 9:00-15:30",
+    "location": "B区 02号摊位",
+    "products": [
+      { "id": "p020", "name": "羊毛杯垫", "price": "35", "unit": "元/组（4个）", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=knitted%20cup%20coasters%20colorful%20craft&image_size=square" },
+      { "id": "p021", "name": "宝宝围兜", "price": "58", "unit": "元/件", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=hand%20knitted%20baby%20bib%20cute&image_size=square" },
+      { "id": "p022", "name": "马海毛围巾", "price": "180", "unit": "元/条", "note": "预定款", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=mohair%20scarf%20soft%20knitted&image_size=square" }
+    ]
+  },
+  {
+    "id": "s008",
+    "name": "陶气手作",
+    "category": "handmade",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=handmade%20ceramic%20pottery%20cups%20bowls%20earth%20tones%20artisan&image_size=square_hd",
+    "description": "独立陶艺工作室出品，每件都是手捏成型，釉色也是自己配的。杯子、小碟子、小花器都有。",
+    "ownerName": "小陶",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20potter%20artist%20hands%20clay%20creative%20smile&image_size=square",
+    "ownerQuote": "泥土记得手的温度。",
+    "businessHours": "周六 9:30-18:00 / 周日 9:30-16:00",
+    "location": "B区 04号摊位",
+    "products": [
+      { "id": "p023", "name": "手捏咖啡杯", "price": "128", "unit": "元/只", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=handmade%20ceramic%20coffee%20cup%20rustic&image_size=square" },
+      { "id": "p024", "name": "粗陶小碟", "price": "68", "unit": "元/只", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=rustic%20ceramic%20small%20plate&image_size=square" },
+      { "id": "p025", "name": "迷你花器", "price": "98", "unit": "元/只", "note": "手作孤品", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=mini%20ceramic%20vase%20handmade&image_size=square" }
+    ]
+  },
+  {
+    "id": "s009",
+    "name": "青柠手作香薰",
+    "category": "handmade",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=handmade%20candles%20aromatherapy%20dried%20flowers%20natural%20warm%20light&image_size=square_hd",
+    "description": "用天然大豆蜡和植物精油做的香薰蜡烛，还有扩香石。每个香味都是自己调的，治愈系小物。",
+    "ownerName": "柠檬",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20girl%20handmade%20candle%20maker%20gentle%20smile&image_size=square",
+    "ownerQuote": "留一盏灯，给晚归的人。",
+    "businessHours": "周六 10:00-17:30 / 周日 10:00-15:30",
+    "location": "B区 06号摊位",
+    "products": [
+      { "id": "p026", "name": "大豆蜡香薰杯", "price": "88", "unit": "元/杯", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=soy%20wax%20candle%20in%20ceramic%20cup&image_size=square" },
+      { "id": "p027", "name": "石膏扩香石", "price": "45", "unit": "元/个", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=gypsum%20aroma%20diffuser%20stone%20flower%20shape&image_size=square" },
+      { "id": "p028", "name": "干花香薰挂牌", "price": "58", "unit": "元/个", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=dried%20flower%20wax%20sachet%20aroma&image_size=square" }
+    ]
+  },
+  {
+    "id": "s010",
+    "name": "植愈手作皮具",
+    "category": "handmade",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=handmade%20leather%20goods%20wallet%20card%20holder%20brown%20craftsman&image_size=square_hd",
+    "description": "头层牛皮手工缝制的皮具小物，卡包、钥匙包、笔记本封套。越用越有光泽，能陪你很多年。",
+    "ownerName": "阿澈",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20craftsman%20leather%20worker%20focused%20portrait&image_size=square",
+    "ownerQuote": "一针一线，缝的是时光。",
+    "businessHours": "周六 9:00-18:00 / 周日 9:00-16:00",
+    "location": "B区 08号摊位",
+    "products": [
+      { "id": "p029", "name": "植鞣卡包", "price": "168", "unit": "元/个", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=vegetable%20tanned%20leather%20card%20holder&image_size=square" },
+      { "id": "p030", "name": "钥匙扣", "price": "68", "unit": "元/个", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=handmade%20leather%20keychain&image_size=square" },
+      { "id": "p031", "name": "A5笔记本封套", "price": "288", "unit": "元/个", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=leather%20notebook%20cover%20A5%20handmade&image_size=square" }
+    ]
+  },
+  {
+    "id": "s011",
+    "name": "花时间干花",
+    "category": "handmade",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=dried%20flower%20bouquets%20arrangement%20natural%20colors%20rustic&image_size=square_hd",
+    "description": "自家种花自然风干，扎成小花束和小花环。不用浇水，放着就是风景。",
+    "ownerName": "花姐",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20woman%20florist%20dried%20flowers%20romantic%20smile&image_size=square",
+    "ownerQuote": "花谢了，但美留下来了。",
+    "businessHours": "周六 8:30-17:30 / 周日 8:30-15:30",
+    "location": "B区 10号摊位",
+    "products": [
+      { "id": "p032", "name": "迷你干花束", "price": "48", "unit": "元/束", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=mini%20dried%20flower%20bouquet&image_size=square" },
+      { "id": "p033", "name": "花环挂饰", "price": "128", "unit": "元/个", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=dried%20flower%20wreath%20hanging%20decoration&image_size=square" },
+      { "id": "p034", "name": "玻璃罩干花", "price": "88", "unit": "元/个", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=glass%20dome%20dried%20flower%20preserved&image_size=square" }
+    ]
+  },
+  {
+    "id": "s012",
+    "name": "麦香坊欧包",
+    "category": "bakery",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=artisan%20sourdough%20bread%20loaves%20rustic%20bakery%20flour%20dust&image_size=square_hd",
+    "description": "天然酵母慢发酵的欧式面包，无糖无油的乡村包、酒渍果干的史多伦。每周限量，要赶早。",
+    "ownerName": "老麦",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20baker%20middle%20aged%20man%20flour%20apron%20smile&image_size=square",
+    "ownerQuote": "好面包，是时间做出来的。",
+    "businessHours": "周六 7:30-11:30 / 周日 7:30-11:00",
+    "location": "C区 01号摊位",
+    "products": [
+      { "id": "p035", "name": "乡村硬欧", "price": "38", "unit": "元/个", "note": "招牌", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=rustic%20country%20sourdough%20bread%20loaf&image_size=square" },
+      { "id": "p036", "name": "核桃葡萄干软欧", "price": "32", "unit": "元/个", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=walnut%20raisin%20bread%20soft%20loaf&image_size=square" },
+      { "id": "p037", "name": "恰巴塔", "price": "18", "unit": "元/个", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=ciabatta%20bread%20italian%20rustic&image_size=square" },
+      { "id": "p038", "name": "法式可颂", "price": "15", "unit": "元/只", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=french%20croissant%20golden%20flaky&image_size=square" }
+    ]
+  },
+  {
+    "id": "s013",
+    "name": "糖霜手作甜品",
+    "category": "bakery",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=homemade%20pastries%20tarts%20cakes%20dessert%20colorful%20pastry%20shop&image_size=square_hd",
+    "description": "在家开的小烘焙坊，做的是低糖少油的健康甜点。用的都是法国黄油和当季水果。",
+    "ownerName": "糖糖",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20pastry%20chef%20girl%20baker%20cute%20smile&image_size=square",
+    "ownerQuote": "甜一点，日子就软一点。",
+    "businessHours": "周六 8:00-16:00 / 周日 8:00-14:00",
+    "location": "C区 03号摊位",
+    "products": [
+      { "id": "p039", "name": "巴斯克芝士", "price": "38", "unit": "元/个（4寸）", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=basque%20burnt%20cheesecake%20caramelized%20top&image_size=square" },
+      { "id": "p040", "name": "水果挞", "price": "28", "unit": "元/个", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=fruit%20tart%20pastry%20cream%20berries&image_size=square" },
+      { "id": "p041", "name": "柠檬磅蛋糕", "price": "42", "unit": "元/条", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=lemon%20pound%20cake%20glaze%20yellow&image_size=square" }
+    ]
+  },
+  {
+    "id": "s014",
+    "name": "小森林手工饼干",
+    "category": "bakery",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=assorted%20homemade%20cookies%20biscuits%20various%20shapes%20butter&image_size=square_hd",
+    "description": "黄油曲奇、抹茶饼干、海盐燕麦……都是小份量独立小包装，适合办公室下午茶。",
+    "ownerName": "小树",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20young%20baker%20boy%20casual%20friendly&image_size=square",
+    "ownerQuote": "饼干要脆，人要可爱。",
+    "businessHours": "周六 9:00-17:00 / 周日 9:00-15:00",
+    "location": "C区 05号摊位",
+    "products": [
+      { "id": "p042", "name": "黄油曲奇礼盒", "price": "68", "unit": "元/盒", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=butter%20cookies%20gift%20box%20assortment&image_size=square" },
+      { "id": "p043", "name": "抹茶白巧曲奇", "price": "22", "unit": "元/袋", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=matcha%20green%20cookies%20white%20chocolate&image_size=square" },
+      { "id": "p044", "name": "海盐燕麦饼干", "price": "18", "unit": "元/袋", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=oatmeal%20sea%20salt%20cookies%20healthy&image_size=square" }
+    ]
+  },
+  {
+    "id": "s015",
+    "name": "慢时光手工吐司",
+    "category": "bakery",
+    "coverImage": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=japanese%20style%20shokupan%20milk%20bread%20fluffy%20soft%20sliced&image_size=square_hd",
+    "description": "日式生吐司，北海道鲜奶加总统黄油，撕开有拉丝。做早餐三明治绝配。",
+    "ownerName": "阿慢",
+    "ownerAvatar": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=chinese%20baker%20man%20apron%20bread%20gentle&image_size=square",
+    "ownerQuote": "好的吐司，不需要涂酱。",
+    "businessHours": "周六 7:30-12:00 / 周日 7:30-11:00",
+    "location": "C区 07号摊位",
+    "products": [
+      { "id": "p045", "name": "北海道生吐司", "price": "45", "unit": "元/条", "note": "每日限量20条", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=hokkaido%20milk%20bread%20shokupan%20fluffy&image_size=square" },
+      { "id": "p046", "name": "全麦吐司", "price": "32", "unit": "元/条", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=whole%20wheat%20toast%20bread%20sliced%20healthy&image_size=square" },
+      { "id": "p047", "name": "蔓越莓吐司", "price": "38", "unit": "元/条", "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=cranberry%20bread%20toast%20fruit&image_size=square" }
+    ]
+  }
+]
