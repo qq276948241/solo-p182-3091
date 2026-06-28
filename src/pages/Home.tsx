@@ -3,6 +3,7 @@ import { Search, CalendarDays, MapPin, SlidersHorizontal } from "lucide-react";
 import stallsData from "@/data/stalls.json";
 import type { Stall, Category } from "@/types/stall";
 import { StallCard } from "@/components/StallCard";
+import { MarketBanner } from "@/components/MarketBanner";
 
 type FilterKey = "all" | Category;
 
@@ -41,6 +42,10 @@ export function Home() {
 
   return (
     <div className="container pb-20 pt-8 md:pt-10">
+      <section className="mb-8">
+        <MarketBanner />
+      </section>
+
       <section className="mb-10 animate-fade-in">
         <div className="flex flex-col gap-6 rounded-3xl bg-gradient-to-br from-forest-50 via-white to-mustard-100/60 p-6 md:p-10 shadow-soft border border-cream-200/60">
           <div className="flex flex-wrap items-center gap-3">
