@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 export interface MarketDateInfo {
   saturday: Date;
@@ -128,27 +128,36 @@ export function formatMarketDateRange(marketInfo: MarketDateInfo): string {
 }
 
 export function useNextMarket() {
-  const [marketInfo, setMarketInfo] = useState<MarketDateInfo>(() =>
-    computeNextMarketDate(new Date())
-  );
-  const [countdown, setCountdown] = useState<CountdownInfo>(() =>
-    computeCountdown(computeNextMarketDate(new Date()), new Date())
-  );
+  const [now, setNow] = useState<Date>(() => new Date());
+  const timerRef = useRef<number | null>(null);
+
+  const marketInfo = useMemo(() => computeNextMarketDate(now), [now]);
+  const countdown = useMemo(() => computeCountdown(marketInfo, now), [marketInfo, now]);
+  const dateText = useMemo(() => formatMarketDateRange(marketInfo), [marketInfo]);
 
   useEffect(() => {
     const tick = () => {
-      const now = new Date();
-      const info = computeNextMarketDate(now);
-      setMarketInfo(info);
-      setCountdown(computeCountdown(info, now));
+      setNow(new Date());
+    };
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        tick();
+      }
     };
 
     tick();
-    const timer = setInterval(tick, 1000);
-    return () => clearInterval(timer);
-  }, []);
+    timerRef.current = window.setInterval(tick, 1000);
+    document.addEventListener("visibilitychange", handleVisibilityChange);
 
-  const dateText = formatMarketDateRange(marketInfo);
+    return () => {
+      if (timerRef.current !== null) {
+        window.clearInterval(timerRef.current);
+        timerRef.current = null;
+      }
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, []);
 
   return { marketInfo, countdown, dateText };
 }
