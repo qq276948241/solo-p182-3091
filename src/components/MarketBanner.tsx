@@ -1,41 +1,12 @@
-import { useEffect, useState } from "react";
 import { CalendarClock, MapPin, Clock, Sparkles } from "lucide-react";
-import {
-  getNextMarketDate,
-  getCountdown,
-  formatDateRange,
-  type MarketDateInfo,
-  type CountdownInfo,
-} from "@/lib/utils";
+import { useNextMarket } from "@/hooks/useNextMarket";
 
 function padZero(n: number): string {
   return n.toString().padStart(2, "0");
 }
 
 export function MarketBanner() {
-  const [now, setNow] = useState<Date>(new Date());
-  const [marketInfo, setMarketInfo] = useState<MarketDateInfo>(() =>
-    getNextMarketDate()
-  );
-  const [countdown, setCountdown] = useState<CountdownInfo>(() =>
-    getCountdown(getNextMarketDate())
-  );
-
-  useEffect(() => {
-    const tick = () => {
-      const currentNow = new Date();
-      setNow(currentNow);
-      const info = getNextMarketDate(currentNow);
-      setMarketInfo(info);
-      setCountdown(getCountdown(info, currentNow));
-    };
-
-    tick();
-    const timer = setInterval(tick, 1000);
-    return () => clearInterval(timer);
-  }, []);
-
-  const dateText = formatDateRange(marketInfo);
+  const { countdown, dateText } = useNextMarket();
   const { isOngoing, isTodayMarket } = countdown;
 
   const renderCountdown = () => {
